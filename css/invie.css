@@ -165,16 +165,9 @@ input:focus, textarea:focus{
 	bottom: 50px;
 }
 
-.contenedor-guitarra-b ol li{
-	list-style-type: none;
-}
 
 .contenedor-guitarra-a{
 	padding-left: 20px; 
-}
-
-.contenedor-guitarra-a ol li{
-	list-style-type: none;
 }
 
 .header{
@@ -259,4 +252,55 @@ input:focus, textarea:focus{
 
 .titulo span{
 	text-decoration: underline;
+}
+
+@media screen and (max-width:768px){
+	
+	.titulo{
+		font-size:45px;
+		margin-top: 30px;
+	}
+
+	.title-a{
+		font-size: 18px;
+	}
+
+	.portada{
+		height:auto;
+	}
+
+	.portada .button{
+		margin-bottom: 30px;
+		display: inline-block;
+	}
+
+	.guitarras{
+		text-align: center;
+	}
+
+	.left, .right{
+		float:none;
+		position: static;
+	}
+
+	.title-b{
+		margin: 0
+	}
+
+	.contenedor-guitarra-b  li{
+	list-style: none;
+	}
+
+	.contenedor-guitarra-a  li{
+	list-style: none;
+	}
+
+	.guitarra.b{
+		height: auto;
+	}
+	.contenedor-guitarra-b{
+		position: static;
+		margin:0;
+	}
+
 }
